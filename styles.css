@@ -1,0 +1,19 @@
+.wrapper {
+    height: 698px;
+    width: 1129px;
+    display: flex;
+    flex-direction: row;
+    margin: 0% auto;
+}
+
+#fernImage {
+    width: 431px;
+    height: 698px;
+}
+
+.container {
+    display: flex;
+    width: 698px;
+    height: 698px;
+    background-color: aqua;
+}

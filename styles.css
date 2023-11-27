@@ -1,19 +1,37 @@
+:root {
+    --content-height: 698px;
+}
+
 .wrapper {
-    height: 698px;
+    height: var(--content-height);
     width: 1129px;
     display: flex;
     flex-direction: row;
     margin: 0% auto;
 }
 
-#fernImage {
+.imageContainer {
     width: 431px;
-    height: 698px;
+    height: var(--content-height);
+    position: relative;
+    overflow: hidden;
+}
+
+#fernImage {
+    height: var(--content-height);
+    object-fit: cover;
+}
+
+.photoCredit {
+    position: absolute;
+    bottom: 8px;
+    left: 106px;
+    color: white;
 }
 
 .container {
     display: flex;
-    width: 698px;
-    height: 698px;
+    width: var(--content-height);
+    height: var(--content-height);
     background-color: aqua;
 }

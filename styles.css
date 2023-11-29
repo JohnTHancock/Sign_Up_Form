@@ -46,10 +46,27 @@
     justify-content: center;
 }
 
+.topText {
+margin-bottom: 2.6rem;
+}
+
+.topText > h2 {
+    margin: 1.3rem 65px 0 28px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
 .inputForm {
     height: auto;
     background-color: #fff;
 }
+
 
 .inputForm h2 {
     margin: 28px 28px 21px 28px;

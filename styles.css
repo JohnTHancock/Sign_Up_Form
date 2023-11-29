@@ -138,3 +138,25 @@ input:focus {
     width: 200px;
     margin-bottom: 7px;
 }
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2.5rem;
+    width: 175px;
+    margin: 28px 28px;
+}
+
+.bottomText > p {
+    margin: 0 28px 28px 28px;
+}
+
+#login {
+    color: #596D48;
+    font-weight: 600;
+    text-decoration: none;
+}
